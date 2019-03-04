@@ -1,1 +1,49 @@
-/* This is my CSS, yoo hoo.*/
+/******************** carousel ***************/
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+body{
+    background-color: rgb(92, 92, 92);
+}
+
+/********************** Modif sur la page index *************/
+#cardhome{
+    margin-bottom: 100px;
+}
+
+.searchnav{
+    margin-left: 100px;
+}
+
+#ulindex{
+    margin-right: 5vh;
+}
+
+#navnav{
+    background-image: url("https://i.ibb.co/Cm9MT2s/banner-Header1015-40.png");
+}
+
+#footfoot{
+    background-image: url("https://i.ibb.co/wwZXVL1/Banner-Footer1015-120.png")
+}
+/****************** Modif sur la page Contact *********************/
+
+#sendcontact{
+    margin-top: 10px;
+}
+
+#aboutus{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#contactus{
+    margin-top: 100px;
+}

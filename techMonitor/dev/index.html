@@ -1,1 +1,196 @@
-<-- This is my HTML, woo hoo -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+    <title>Tech-Monitor</title>
+</head>
+
+
+<body>
+    <!----------------------------NAVBAR------------------------>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navnav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Tech-Monitor</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto" id="ulindex">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Do It Yourself !</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!--------------------- carousel ------------------------->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide One -->
+                <div class="carousel-item active"
+                    style="background-image: url('https://i.ibb.co/XCLm6k1/tesla-slider.png')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">First Slide</h3>
+                        <p class="lead">Dangerous fellowship try to destroy the ring</p>
+                    </div>
+                </div>
+                <!-- Slide Two -->
+                <div class="carousel-item"
+                    style="background-image: url('https://i.ibb.co/pfZHnhr/alexa-slider.png')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">Second Slide</h3>
+                        <p class="lead">Orcs, Goblins, Balrogs, protect your master Sauron!</p>
+                    </div>
+                </div>
+                <!-- Slide Three -->
+                <div class="carousel-item"
+                    style="background-image: url('https://i.ibb.co/gtJ0kTv/family-slider.png')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">THE RING</h3>
+                        <p class="lead">Find The Precious !</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+
+    <!--------------------- CARD HOME ------------------------->
+
+    <div class="jumbotron" id="jumbohome">
+        <h1 class="display-4">Latest news and most viewed articles</h1>
+        <p class="lead">Welcome to Tech-monitor Here is the list of the latest articles in dates as well as the most
+            consulted to keep you informed of major trends.</p>
+    </div>
+
+
+    <!--------------------------- Text ---------------->
+
+    <div class="container-fluid" id="cardhome">
+        <div class="row">
+            <div class="card-deck">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="https://les-smartgrids.fr/wp-content/uploads/2018/04/appareilsconnectes_0.jpg"
+                                class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Test</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://les-smartgrids.fr/wp-content/uploads/2018/04/appareilsconnectes_0.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://les-smartgrids.fr/wp-content/uploads/2018/04/appareilsconnectes_0.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+<footer>
+    <div class="p-3 mb-2 bg-dark text-white" id="footfoot">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <P>About us</P>
+                    <P>Fellows</P>
+                    <P>Join our army</P>
+                </div>
+                <div class="col-4">
+                    <P>Faq</P>
+                    <P>Reward conditions</P>
+                    <P>Legal mentions</P>
+                </div>
+                <div class="col-4">
+                    <p>Tech-monitor.com</p>
+                    <p>Follow him also on Twitter</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
