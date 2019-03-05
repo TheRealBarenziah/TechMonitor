@@ -65,3 +65,8 @@ body{
 }
 
 /* My CSS Patch Test (branche Seb, 15h43s) */
+.lemmeCenter {
+	justify-content: center;
+	justify-items: center;
+	text-justify: center;
+}
