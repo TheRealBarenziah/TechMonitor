@@ -18,15 +18,15 @@
 <body>
     <!----------------------------NAVBAR------------------------>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="#">Tech-Monitor</a>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navnav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Tech-Monitor</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                     aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto" id="ulindex">
                         <li class="nav-item">
                             <a class="nav-link" href="#">News</a>
                         </li>
@@ -38,14 +38,16 @@
                         </li>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>x
+                    <div class>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </nav>
 
@@ -60,7 +62,7 @@
             <div class="carousel-inner" role="listbox">
                 <!-- Slide One -->
                 <div class="carousel-item active"
-                    style="background-image: url('https://www.haas-avocats.com/wp-content/uploads/2015/06/objet-connecte-decryptage.jpg')">
+                    style="background-image: url('https://i.ibb.co/XCLm6k1/tesla-slider.png')">
                     <div class="carousel-caption d-none d-md-block">
                         <h3 class="display-4">First Slide</h3>
                         <p class="lead">Dangerous fellowship try to destroy the ring</p>
@@ -68,7 +70,7 @@
                 </div>
                 <!-- Slide Two -->
                 <div class="carousel-item"
-                    style="background-image: url('https://static.hitek.fr/img/42/2016/11/fb_48932-the-lord-of-the-rings.jpg')">
+                    style="background-image: url('https://i.ibb.co/pfZHnhr/alexa-slider.png')">
                     <div class="carousel-caption d-none d-md-block">
                         <h3 class="display-4">Second Slide</h3>
                         <p class="lead">Orcs, Goblins, Balrogs, protect your master Sauron!</p>
@@ -76,7 +78,7 @@
                 </div>
                 <!-- Slide Three -->
                 <div class="carousel-item"
-                    style="background-image: url('https://a-static.besthdwallpaper.com/le-seigneur-des-anneaux-fond-d-ecran-3554x1999-1999_53.jpg')">
+                    style="background-image: url('https://i.ibb.co/gtJ0kTv/family-slider.png')">
                     <div class="carousel-caption d-none d-md-block">
                         <h3 class="display-4">THE RING</h3>
                         <p class="lead">Find The Precious !</p>
@@ -96,7 +98,16 @@
 
     <!--------------------- CARD HOME ------------------------->
 
-    <div class="container" id="cardhome">
+    <div class="jumbotron" id="jumbohome">
+        <h1 class="display-4">Latest news and most viewed articles</h1>
+        <p class="lead">Welcome to Tech-monitor Here is the list of the latest articles in dates as well as the most
+            consulted to keep you informed of major trends.</p>
+    </div>
+
+
+    <!--------------------------- Text ---------------->
+
+    <div class="container-fluid" id="cardhome">
         <div class="row">
             <div class="card-deck">
                 <div class="card mb-3" style="max-width: 540px;">
@@ -107,10 +118,12 @@
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">Test</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -158,28 +171,26 @@
 </body>
 
 <footer>
-    <footer>
-        <div class="p-3 mb-2 bg-dark text-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                        <P>About us</P>
-                        <P>Fellows</P>
-                        <P>Join our army</P>
-                    </div>
-                    <div class="col-4">
-                        <P>Faq</P>
-                        <P>Reward conditions</P>
-                        <P>Legal mentions</P>
-                    </div>
-                    <div class="col-4">
-                        <p>Tech-monitor.com</p>
-                        <p>Follow him also on Twitter</p>
-                    </div>
+    <div class="p-3 mb-2 bg-dark text-white" id="footfoot">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <P>About us</P>
+                    <P>Fellows</P>
+                    <P>Join our army</P>
+                </div>
+                <div class="col-4">
+                    <P>Faq</P>
+                    <P>Reward conditions</P>
+                    <P>Legal mentions</P>
+                </div>
+                <div class="col-4">
+                    <p>Tech-monitor.com</p>
+                    <p>Follow him also on Twitter</p>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
 </footer>
 
 </html>
