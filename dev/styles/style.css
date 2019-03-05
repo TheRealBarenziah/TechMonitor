@@ -53,7 +53,7 @@ table {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
 
 body{
     background-color: rgb(92, 92, 92);
@@ -90,3 +90,8 @@ body{
 }
 
 
+.lemmeCenter {
+	justify-content: center;
+	justify-items: center;
+	text-justify: center;
+}
