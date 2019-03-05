@@ -65,3 +65,28 @@ body{
 }
 
 /* My CSS Patch Test (branche Seb, 15h43s) */
+
+
+/* Products CSS */
+.dropdown {
+	margin: 3em;
+}
+
+#dropdownProduct h2 {
+	font-size: 2em;
+}
+
+
+.card-deck {
+	margin: 2em;
+}
+
+#cardProducts {
+	border: 5px solid hsl(15, 20%, 50%);
+	border-radius: 5px;
+}
+.card-img-overlay {
+	margin-left: 7em;
+}
+
+
