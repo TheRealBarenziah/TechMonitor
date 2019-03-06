@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <title>Tech-Monitor</title>
 </head>
@@ -18,9 +20,12 @@
 <body>
     <!----------------------------NAVBAR------------------------>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navnav">
+        <nav class="navbar navbar-expand-lg navbar-dark text-light fixed-top" id="navnav">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Tech-Monitor</a>
+                <img src="https://image.flaticon.com/icons/svg/64/64172.svg" height="25" width="25">
+                <a class="navbar-brand" href="index.html">
+                    <h1>TechMonitor</h1>
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                     aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -28,23 +33,31 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto" id="ulindex">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">News</a>
+                            <a class="nav-link" href="news.html">
+                                <p class="text-light">News</p>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Products</a>
+                            <a class="nav-link" href="products.html">
+                                <p class="text-light">Products</p>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Do It Yourself !</a>
+                            <a class="nav-link" href="diy.html">
+                                <p class="text-light">Do It Yourself !</p>
+                            </a>
                         </li>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
+                            <a class="nav-link" href="contact.html">
+                                <p class="text-light">Contact Us</p>
+                            </a>
                         </li>
                     </ul>
                     <div class>
                         <form class="form-inline my-2 my-lg-0">
                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+                            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
                         </form>
                     </div>
                 </div>
@@ -62,7 +75,7 @@
             <div class="carousel-inner" role="listbox">
                 <!-- Slide One -->
                 <div class="carousel-item active"
-                    style="background-image: url('https://i.ibb.co/XCLm6k1/tesla-slider.png')">
+                    style="background-image: url('https://images6.alphacoders.com/648/648552.jpg')">
                     <div class="carousel-caption d-none d-md-block">
                         <h3 class="display-4">First Slide</h3>
                         <p class="lead">Dangerous fellowship try to destroy the ring</p>
@@ -70,7 +83,7 @@
                 </div>
                 <!-- Slide Two -->
                 <div class="carousel-item"
-                    style="background-image: url('https://i.ibb.co/pfZHnhr/alexa-slider.png')">
+                    style="background-image: url('https://images8.alphacoders.com/403/thumb-1920-403441.gif')">
                     <div class="carousel-caption d-none d-md-block">
                         <h3 class="display-4">Second Slide</h3>
                         <p class="lead">Orcs, Goblins, Balrogs, protect your master Sauron!</p>
@@ -78,7 +91,7 @@
                 </div>
                 <!-- Slide Three -->
                 <div class="carousel-item"
-                    style="background-image: url('https://i.ibb.co/gtJ0kTv/family-slider.png')">
+                    style="background-image: url('https://images8.alphacoders.com/546/thumb-1920-546188.jpg')">
                     <div class="carousel-caption d-none d-md-block">
                         <h3 class="display-4">THE RING</h3>
                         <p class="lead">Find The Precious !</p>
@@ -113,14 +126,16 @@
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="https://les-smartgrids.fr/wp-content/uploads/2018/04/appareilsconnectes_0.jpg"
+                            <img src="http://www.touslesportails.com/wp-content/uploads/2017/03/1-19-1024x683-752x440.jpg"
                                 class="card-img" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">Test</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                        lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
                                 <div class="card-footer">
                                     <small class="text-muted">Last updated 3 mins ago</small>
                                 </div>
@@ -157,8 +172,59 @@
         </div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!------------------------- footer ----------------------------------->
+
+    <footer>
+        <div class="p-3 mb-2 text-white" id="footfoot">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-2">
+                    </div>
+                    <div class="col-2">
+                        <P>News</P>
+                        <P>Product</P>
+                    </div>
+                    <div class="col-2">
+                        <P>Do It Yourself</P>
+                        <P>Contact/about us</P>
+                    </div>
+                    <div class="col-2">
+                        <P>Faq</P>
+                        <P>Legal mentions</P>
+                    </div>
+                    <div class="col-2">
+                        <p>TechMonitor.com</p>
+                        <p>Follow</p>
+                    </div>
+                    <div class="col-2">
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-2">
+                                <div class="fa-2x"><i class="fab fa-github-alt"></i></div>
+                        </div>
+                        <div class="col-2">
+                                <div class="fa-2x"><i class="fab fa-gitkraken"></i></div>
+                        </div>
+                        <div class="col-2">
+                                <div class="fa-2x"><i class="fab fa-font-awesome-flag"></i></div>
+                        </div>
+                        <div class="col-2">
+                                <div class="fa-2x"><i class="fab fa-twitter-square"></i></div>
+                        </div>
+                        <div class="col-2">
+                                <div class="fa-2x"><i class="fab fa-facebook-square"></i></div>
+                        </div>
+                        <div class="col-2">
+                                <div class="fa-2x"><i class="fab fa-youtube"></i></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!---------------------------------------------------- Optional JavaScript -------------------------------------->
+    <!---------------------------------- jQuery first, then Popper.js, then Bootstrap JS ------------------------------->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -170,27 +236,6 @@
         crossorigin="anonymous"></script>
 </body>
 
-<footer>
-    <div class="p-3 mb-2 bg-dark text-white" id="footfoot">
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <P>About us</P>
-                    <P>Fellows</P>
-                    <P>Join our army</P>
-                </div>
-                <div class="col-4">
-                    <P>Faq</P>
-                    <P>Reward conditions</P>
-                    <P>Legal mentions</P>
-                </div>
-                <div class="col-4">
-                    <p>Tech-monitor.com</p>
-                    <p>Follow him also on Twitter</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+
 
 </html>

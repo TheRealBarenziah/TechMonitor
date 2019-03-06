@@ -13,32 +13,33 @@
 </head>
 
 <body>
+    <!----------------------------NAVBAR------------------------>
     <header>
-        <!-------------------------------Navbar ------------------------->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <div class="container">
-                <div class="row">
-                    <a class="navbar-brand" href="index.html">Tech-Monitor</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">News</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Products</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Do It Yourself !</a>
-                            </li>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
-                            </li>
-                        </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navnav">
+            <div class="container-fluid">
+                <img src="https://image.flaticon.com/icons/svg/64/64172.svg" height="25" width="25">
+                <a class="navbar-brand" href="index.html">TechMonitor</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto" id="ulindex">
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="diy.html">Do It Yourself !</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class>
                         <form class="form-inline my-2 my-lg-0">
                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
@@ -47,93 +48,97 @@
                 </div>
             </div>
         </nav>
-    </header>
 
-    <!------------------------- Contact us -------------------------------------->
+        <!------------------------- Contact us -------------------------------------->
 
-    <section id="contactus">
-        <div class="container">
-            <h2 id="Contact">Contact Us</h2>
+        <section id="contactus">
+            <div class="container">
+                <h2 id="Contact">Contact Us</h2>
 
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1">@User</span>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">@User</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                        aria-describedby="basic-addon1">
                 </div>
-                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-                    aria-describedby="basic-addon1">
-            </div>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1">Email@</span>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Email@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username"
+                        aria-describedby="basic-addon2">
                 </div>
-                <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username"
-                    aria-describedby="basic-addon2">
-            </div>
-            <div class="input-group mb-3">
-            </div>
-            <div class="input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text">Your message</span>
+                <div class="input-group mb-3">
                 </div>
-                <textarea class="form-control" aria-label="With textarea"></textarea>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Your message</span>
+                    </div>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                </div>
+                <button type="button" class="btn btn-dark btn-lg btn-block" id="sendcontact">Send</button>
             </div>
-            <button type="button" class="btn btn-dark btn-lg btn-block" id="sendcontact">Send</button>
-        </div>
-    </section>
+        </section>
 
-    <!-------------------------------About us------------------------------------>
+        <!-------------------------------About us------------------------------------>
 
-    <div class="container" id="aboutus">
-        <div class="card">
-            <h5 class="card-header">About Us</h5>
-            <div class="row no-gutters">
-                <div class="col-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Who i am ?</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo
-                            neque quis
-                            velit scelerisque, ac posuere dolor viverra. Donec dignissim lorem eget lorem sollicitudin
-                            tincidunt. Nam suscipit neque sem, eget ornare lacus hendrerit id. Aliquam non porta magna,
-                            vitae
-                            mattis odio. Donec consequat mi id tellus efficitur, a malesuada enim iaculis. Aenean quis
-                            ex
-                            tristique, imperdiet ipsum vel, tincidunt nulla. Proin vel mi lectus. Maecenas sed iaculis
-                            erat.
-                            Donec tincidunt magna vitae erat condimentum, et vestibulum urna hendrerit. Suspendisse
-                            purus dui,
-                            semper id laoreet sed, scelerisque vitae dolor. In et nulla ex. Vestibulum ante ipsum primis
-                            in
-                            faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        <div class="container" id="aboutus">
+            <div class="card">
+                <h5 class="card-header">About Us</h5>
+                <div class="row no-gutters">
+                    <div class="col-9">
+                        <div class="card-body">
+                            <h5 class="card-title">Who i am ?</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                                commodo
+                                neque quis
+                                velit scelerisque, ac posuere dolor viverra. Donec dignissim lorem eget lorem
+                                sollicitudin
+                                tincidunt. Nam suscipit neque sem, eget ornare lacus hendrerit id. Aliquam non porta
+                                magna,
+                                vitae
+                                mattis odio. Donec consequat mi id tellus efficitur, a malesuada enim iaculis. Aenean
+                                quis
+                                ex
+                                tristique, imperdiet ipsum vel, tincidunt nulla. Proin vel mi lectus. Maecenas sed
+                                iaculis
+                                erat.
+                                Donec tincidunt magna vitae erat condimentum, et vestibulum urna hendrerit. Suspendisse
+                                purus dui,
+                                semper id laoreet sed, scelerisque vitae dolor. In et nulla ex. Vestibulum ante ipsum
+                                primis
+                                in
+                                faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <a href="https://placeholder.com"><img
+                                src="http://melanieafonso.com/wp-content/uploads/2017/12/19-4033-post/photographe_book_portrait_homme_paris_essonne-5(pp_w739_h494).jpg"
+                                width="250" height="200" alt="placeholder.com" id="photoprofil"></a>
+                    </div>
+                    <div class="container">
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-                <div class="col-4">
-                    <a href="https://placeholder.com"><img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFTkotoFRtw0VejJurc1rQR1rEgZdDlc0-so85VV-fx9s7OSD5"
-                            width="250" height="250" alt="placeholder.com"></a>
-                </div>
-                <div class="container">
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
             </div>
-
         </div>
-    </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 </body>
 
 <footer>
-    <div class="p-3 mb-2 bg-dark text-white">
+    <div class="p-3 mb-2 text-white" id="footfoot">
         <div class="container">
             <div class="row">
                 <div class="col-4">

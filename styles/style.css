@@ -10,8 +10,14 @@
 }
 
 body{
-    background-color: rgb(92, 92, 92);
+    background-image: url("https://images.wallpaperscraft.com/image/code_binary_code_glow_136085_2560x1080.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: none;
+    font-family: 'Srisakdi', cursive;
+    font-size: 3vh;
 }
+
 
 /********************** Modif sur la page index *************/
 #cardhome{
@@ -20,18 +26,23 @@ body{
 
 .searchnav{
     margin-left: 100px;
+
+.navbar-toggler{
+    margin-top: 4px;
+}
 }
 
 #ulindex{
     margin-right: 5vh;
+    margin-top: 2vh;
 }
 
 #navnav{
-    background-image: url("https://i.ibb.co/Cm9MT2s/banner-Header1015-40.png");
+    background-image: url("https://i.imgur.com/AeFpY20.png");
 }
 
 #footfoot{
-    background-image: url("https://i.ibb.co/wwZXVL1/Banner-Footer1015-120.png")
+    background-image: url("https://i.imgur.com/AeFpY20.png");
 }
 /****************** Modif sur la page Contact *********************/
 
@@ -46,6 +57,11 @@ body{
 
 #contactus{
     margin-top: 100px;
+}
+
+#photoprofil{
+    border-radius: 10px;
+    margin-top: 40px;
 }
 /* My CSS Patch Test (branche Seb, 15h43s) */
 
