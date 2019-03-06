@@ -16,25 +16,36 @@ body{
     background-color: none;
     font-family: 'Srisakdi', cursive;
     font-size: 3vh;
+    margin:0;
+    padding:0;
 }
+
+element.style {
+    width: 70vh;
+}
+
 
 
 /********************** Modif sur la page index *************/
-#cardhome{
-    margin-bottom: 100px;
-}
+
 
 .searchnav{
     margin-left: 100px;
+}
 
 .navbar-toggler{
     margin-top: 4px;
 }
-}
+
 
 #ulindex{
     margin-right: 5vh;
     margin-top: 2vh;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 #navnav{
@@ -43,6 +54,10 @@ body{
 
 #footfoot{
     background-image: url("https://i.imgur.com/AeFpY20.png");
+}
+
+#ajustcard{
+    margin-top: 10%;
 }
 /****************** Modif sur la page Contact *********************/
 
@@ -61,7 +76,9 @@ body{
 
 #photoprofil{
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 60px;
+    max-width: 100%;
+    height: auto;
 }
 /* My CSS Patch Test (branche Seb, 15h43s) */
 
@@ -93,4 +110,8 @@ body{
 	justify-content: center;
 	justify-items: center;
 	text-justify: center;
+}
+
+.marged-top {
+    margin-top: 110px;
 }

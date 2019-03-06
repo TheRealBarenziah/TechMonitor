@@ -9,16 +9,23 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css" <title>Hello, world!</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <title>Tech-Monitor</title>
 </head>
+
 
 <body>
     <!----------------------------NAVBAR------------------------>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navnav">
+        <nav class="navbar navbar-expand-lg navbar-dark text-light fixed-top" id="navnav">
             <div class="container-fluid">
                 <img src="https://image.flaticon.com/icons/svg/64/64172.svg" height="25" width="25">
-                <a class="navbar-brand" href="index.html">TechMonitor</a>
+                <a class="navbar-brand" href="index.html">
+                    <h1>TechMonitor</h1>
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                     aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -26,23 +33,31 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto" id="ulindex">
                         <li class="nav-item">
-                            <a class="nav-link" href="news.html">News</a>
+                            <a class="nav-link" href="news.html">
+                                <p class="text-light">News</p>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="products.html">Products</a>
+                            <a class="nav-link" href="products.html">
+                                <p class="text-light">Products</p>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="diy.html">Do It Yourself !</a>
+                            <a class="nav-link" href="diy.html">
+                                <p class="text-light">Do It Yourself !</p>
+                            </a>
                         </li>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
+                            <a class="nav-link" href="contact.html">
+                                <p class="text-light">Contact Us</p>
+                            </a>
                         </li>
                     </ul>
                     <div class>
                         <form class="form-inline my-2 my-lg-0">
                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+                            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
                         </form>
                     </div>
                 </div>
@@ -53,41 +68,44 @@
 
         <section id="contactus">
             <div class="container">
-                <h2 id="Contact">Contact Us</h2>
-
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1">@User</span>
+                <div class="row"></div>
+                <div class="col-12 col-xl-6">
+                    <h2 id="Contact">Contact Us</h2>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">@User</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                            aria-describedby="basic-addon1">
                     </div>
-                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-                        aria-describedby="basic-addon1">
-                </div>
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1">Email@</span>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">Email@</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username"
+                            aria-describedby="basic-addon2">
                     </div>
-                    <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username"
-                        aria-describedby="basic-addon2">
-                </div>
-                <div class="input-group mb-3">
-                </div>
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text">Your message</span>
+                    <div class="input-group mb-3">
                     </div>
-                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Your message</span>
+                        </div>
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-dark btn-lg btn-block" id="sendcontact">Send</button>
                 </div>
-                <button type="button" class="btn btn-dark btn-lg btn-block" id="sendcontact">Send</button>
+                <div class="offset-6"></div>
             </div>
         </section>
 
         <!-------------------------------About us------------------------------------>
 
         <div class="container" id="aboutus">
+            <h5>About Us</h5>
             <div class="card">
-                <h5 class="card-header">About Us</h5>
                 <div class="row no-gutters">
-                    <div class="col-9">
+                    <div class="col-6 col-lg-9">
                         <div class="card-body">
                             <h5 class="card-title">Who i am ?</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -113,12 +131,8 @@
                         </div>
                     </div>
                     <div class="col-3">
-                        <a href="https://placeholder.com"><img
-                                src="http://melanieafonso.com/wp-content/uploads/2017/12/19-4033-post/photographe_book_portrait_homme_paris_essonne-5(pp_w739_h494).jpg"
-                                width="250" height="200" alt="placeholder.com" id="photoprofil"></a>
-                    </div>
-                    <div class="container">
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="https://placeholder.com"><img src="https://i.imgur.com/JgU5yKe.jpg?1" width="200"
+                                height="250" alt="placeholder.com" id="photoprofil"></a>
                     </div>
                 </div>
             </div>
@@ -140,20 +154,44 @@
 <footer>
     <div class="p-3 mb-2 text-white" id="footfoot">
         <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <P>About us</P>
-                    <P>Fellows</P>
-                    <P>Join our army</P>
+            <div class="row footer-container">
+                <div>
+                    <P>News</P>
+                    <P>Product</P>
                 </div>
-                <div class="col-4">
+                <div>
+                    <P>Do It Yourself</P>
+                    <P>Contact/about us</P>
+                </div>
+                <div>
                     <P>Faq</P>
-                    <P>Reward conditions</P>
                     <P>Legal mentions</P>
                 </div>
-                <div class="col-4">
-                    <p>Tech-monitor.com</p>
-                    <p>Follow him also on Twitter</p>
+                <div>
+                    <p>TechMonitor.com</p>
+                    <p>Follow</p>
+                </div>
+                <div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <div class="fa-2x"><i class="fab fa-github-alt"></i></div>
+                </div>
+                <div class="col-2">
+                    <div class="fa-2x"><i class="fab fa-gitkraken"></i></div>
+                </div>
+                <div class="col-2">
+                    <div class="fa-2x"><i class="fab fa-font-awesome-flag"></i></div>
+                </div>
+                <div class="col-2">
+                    <div class="fa-2x"><i class="fab fa-twitter-square"></i></div>
+                </div>
+                <div class="col-2">
+                    <div class="fa-2x"><i class="fab fa-facebook-square"></i></div>
+                </div>
+                <div class="col-2">
+                    <div class="fa-2x"><i class="fab fa-youtube"></i></div>
                 </div>
             </div>
         </div>
