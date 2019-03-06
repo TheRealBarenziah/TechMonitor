@@ -53,23 +53,35 @@
     </header>
     <!-----------------------Fin Header---------------------->
     <!----------------------  Section Products  -------------------------------->
-    <section>
-        <hr>
-        <div class="container" style="height:100px; background-color: rgb(138, 102, 102)" id="dropdownProduct">
-            <div class="dropdown">
-                <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Sorted by
-                </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">Price</a>
-                    <a class="dropdown-item" href="#">Fame</a>
+    <section id="products">
+        <div class="container" id="dropdownProduct">
+            <div class="row d-flex justify-content-center">
+                <div class="col-3"></div> <!--Container avec Titre sur 3 col-->
+                <div class="col-6">
+                    <div class="text-center" id="titrePageProducts"><!--TitrePage-->
+                        <h2>Products</h2>
+                        <p>Come and see our Tech-Monitor gallery</p>
+                    </div>
                 </div>
-                <div class="container text-center text-light">
-                    <h2>Products</h2>
-                    <p>Come and see our Tech-Monitor gallery</p>
+                <div class="col-3"> <!--Cette col contient le bouton Dropdown-->
+                    <div class="dropdown"><!--Bouton Dropdown-->
+                        
+                        <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Sorted by
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Price</a>
+                            <a class="dropdown-item" href="#">Fame</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
+
+
+
         </div>
 
 
@@ -163,94 +175,94 @@
 
         <div class="card-deck">
 
-                <div class="card" id="cardProducts">
-                    <div class="card-img-overlay text-right">
-                        <!--Button Panier-->
-                        <a class="btn btn-outline-warning" href="#" role="button"><span style="font-size: 1rem">
-                                <i class="fas fa-shopping-basket"></i>
-                            </span></a>
-                    </div>
-                    <img src="..." class="card-img-top jumbotron" alt="...">
-                    <!--Image-->
-                    <div class="card-body">
-                        <!--Name + description-->
-                        <h3 class="card-title font-weight-bold">Object name</h3>
-                        <p class="card-text text-muted">Some quick example text to build on the card title and make up
-                            the
-                            bulk of the card's content.</p>
-                        <div class="card-footer">
-                            <!--Evaluation + price-->
-                            <div class="row justify-content-around">
-                                <button type="button" class="btn btn-primary">Likes
-                                    <span class="badge badge-light">209</span></button>
-                                <button type="button" class="btn btn-outline; color: #DA9696">
-                                    <span style="font-size: 2em; color: #DA9696"> <i class="fas fa-heart"></i></span>
-                                </button>
-                                <button type="button" class="btn btn-outline-secondary btn-sm">45 €</button>
-                            </div>
-                        </div>
-                    </div>
+            <div class="card" id="cardProducts">
+                <div class="card-img-overlay text-right">
+                    <!--Button Panier-->
+                    <a class="btn btn-outline-warning" href="#" role="button"><span style="font-size: 1rem">
+                            <i class="fas fa-shopping-basket"></i>
+                        </span></a>
                 </div>
-                <div class="card" id="cardProducts">
-                    <div class="card-img-overlay text-right">
-                        <!--Button Panier-->
-                        <a class="btn btn-outline-warning" href="#" role="button"><span style="font-size: 1rem">
-                                <i class="fas fa-shopping-basket"></i>
-                            </span></a>
-                    </div>
-                    <img src="..." class="card-img-top jumbotron" alt="...">
-                    <!--Image-->
-                    <div class="card-body">
-                        <!--Name + description-->
-                        <h3 class="card-title font-weight-bold">Object name</h3>
-                        <p class="card-text text-muted">Some quick example text to build on the card title and make up
-                            the
-                            bulk of the card's content.</p>
-                        <div class="card-footer">
-                            <!--Evaluation + price-->
-                            <div class="row justify-content-around">
-                                <button type="button" class="btn btn-primary">Likes
-                                    <span class="badge badge-light">209</span></button>
-                                <button type="button" class="btn btn-outline; color: #DA9696">
-                                    <span style="font-size: 2em; color: #DA9696"> <i class="fas fa-heart"></i></span>
-                                </button>
-                                <button type="button" class="btn btn-outline-secondary btn-sm">45 €</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card" id="cardProducts">
-                    <div class="card-img-overlay text-right">
-                        <!--Button Panier-->
-                        <a class="btn btn-outline-warning" href="#" role="button"><span style="font-size: 1rem">
-                                <i class="fas fa-shopping-basket"></i>
-                            </span></a>
-                    </div>
-                    <img src="..." class="card-img-top jumbotron" alt="...">
-                    <!--Image-->
-                    <div class="card-body">
-                        <!--Name + description-->
-                        <h3 class="card-title font-weight-bold">Object name</h3>
-                        <p class="card-text text-muted">Some quick example text to build on the card title and make up
-                            the
-                            bulk of the card's content.</p>
-                        <div class="card-footer">
-                            <!--Evaluation + price-->
-                            <div class="row justify-content-around">
-                                <button type="button" class="btn btn-primary">Likes
-                                    <span class="badge badge-light">209</span></button>
-                                <button type="button" class="btn btn-outline; color: #DA9696">
-                                    <span style="font-size: 2em; color: #DA9696"> <i class="fas fa-heart"></i></span>
-                                </button>
-                                <button type="button" class="btn btn-outline-secondary btn-sm">45 €</button>
-                            </div>
+                <img src="..." class="card-img-top jumbotron" alt="...">
+                <!--Image-->
+                <div class="card-body">
+                    <!--Name + description-->
+                    <h3 class="card-title font-weight-bold">Object name</h3>
+                    <p class="card-text text-muted">Some quick example text to build on the card title and make up
+                        the
+                        bulk of the card's content.</p>
+                    <div class="card-footer">
+                        <!--Evaluation + price-->
+                        <div class="row justify-content-around">
+                            <button type="button" class="btn btn-primary">Likes
+                                <span class="badge badge-light">209</span></button>
+                            <button type="button" class="btn btn-outline; color: #DA9696">
+                                <span style="font-size: 2em; color: #DA9696"> <i class="fas fa-heart"></i></span>
+                            </button>
+                            <button type="button" class="btn btn-outline-secondary btn-sm">45 €</button>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="card" id="cardProducts">
+                <div class="card-img-overlay text-right">
+                    <!--Button Panier-->
+                    <a class="btn btn-outline-warning" href="#" role="button"><span style="font-size: 1rem">
+                            <i class="fas fa-shopping-basket"></i>
+                        </span></a>
+                </div>
+                <img src="..." class="card-img-top jumbotron" alt="...">
+                <!--Image-->
+                <div class="card-body">
+                    <!--Name + description-->
+                    <h3 class="card-title font-weight-bold">Object name</h3>
+                    <p class="card-text text-muted">Some quick example text to build on the card title and make up
+                        the
+                        bulk of the card's content.</p>
+                    <div class="card-footer">
+                        <!--Evaluation + price-->
+                        <div class="row justify-content-around">
+                            <button type="button" class="btn btn-primary">Likes
+                                <span class="badge badge-light">209</span></button>
+                            <button type="button" class="btn btn-outline; color: #DA9696">
+                                <span style="font-size: 2em; color: #DA9696"> <i class="fas fa-heart"></i></span>
+                            </button>
+                            <button type="button" class="btn btn-outline-secondary btn-sm">45 €</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="cardProducts">
+                <div class="card-img-overlay text-right">
+                    <!--Button Panier-->
+                    <a class="btn btn-outline-warning" href="#" role="button"><span style="font-size: 1rem">
+                            <i class="fas fa-shopping-basket"></i>
+                        </span></a>
+                </div>
+                <img src="..." class="card-img-top jumbotron" alt="...">
+                <!--Image-->
+                <div class="card-body">
+                    <!--Name + description-->
+                    <h3 class="card-title font-weight-bold">Object name</h3>
+                    <p class="card-text text-muted">Some quick example text to build on the card title and make up
+                        the
+                        bulk of the card's content.</p>
+                    <div class="card-footer">
+                        <!--Evaluation + price-->
+                        <div class="row justify-content-around">
+                            <button type="button" class="btn btn-primary">Likes
+                                <span class="badge badge-light">209</span></button>
+                            <button type="button" class="btn btn-outline; color: #DA9696">
+                                <span style="font-size: 2em; color: #DA9696"> <i class="fas fa-heart"></i></span>
+                            </button>
+                            <button type="button" class="btn btn-outline-secondary btn-sm">45 €</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        
-            
+
+
     </section>
 
 
